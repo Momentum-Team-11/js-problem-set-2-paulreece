@@ -130,4 +130,7 @@ function selectionSort(inputArr) {
 // For example, `textList(['Cadence', 'Ordel', 'Marion'])` results in the string
 // `"Cadence,Ordel,Marion"`.
 
-function textList(names)
+function textList(names) {
+    return names.toString()
+}
+
